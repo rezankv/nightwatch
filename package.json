@@ -1,11 +1,10 @@
 {
   "name": "watchman",
   "version": "1.0.0",
-  "type": "commonjs",
   "scripts": {
     "dev": "nodemon ./src/index.ts",
-    "build": "echo build",
-    "start": "ts-node ./src/index.ts"
+    "build": "tsc",
+    "start": "node ./dist/index.js"
   },
   "keywords": [],
   "author": "",
