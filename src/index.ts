@@ -57,7 +57,6 @@ const rl = readline.createInterface({
 
         await client.addEventHandler(async (event) => {
             const message = event.message;
-            console.log(message);
 
             if (!(message instanceof Api.Message)) return;
 
