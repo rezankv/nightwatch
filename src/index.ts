@@ -44,7 +44,7 @@ const rl = readline.createInterface({
             onError: (err) => logger.error(err.message),
         });
 
-        logger.success("Watchman is connected 🚀🚀🚀")
+        logger.success("NightWatch is connected 🚀🚀🚀")
 
         const targetChats = await Promise.all(targets.usernames.map(username => client.getEntity(username)))
         const targetIds = [...targets.ids, ...targetChats.map(chat => chat?.id.valueOf())]
