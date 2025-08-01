@@ -3,7 +3,7 @@ import { StringSession } from "telegram/sessions";
 import readline from "readline";
 import dotenv from 'dotenv'
 import { NewMessage } from "telegram/events";
-import { getKeywords, logger } from "./utils";
+import { getKeywords, getTargets, logger } from "./utils";
 
 dotenv.config()
 
@@ -13,12 +13,9 @@ const stringSession = new StringSession(`${process.env.STRING_SESSION}`);
 const forwardTo = `${process.env.FORWARD_TO}`;
 
 
-
-const targets = {
-    usernames: [],
-    ids: [1441362277, 1629524519, 2313303261, 1901071641]
-};
+const targets = getTargets()
 const keywords = getKeywords()
+console.log(keywords);
 
 
 const rl = readline.createInterface({
