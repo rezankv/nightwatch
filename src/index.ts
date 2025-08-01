@@ -15,7 +15,6 @@ const forwardTo = `${process.env.FORWARD_TO}`;
 
 const targets = getTargets()
 const keywords = getKeywords()
-console.log(keywords);
 
 
 const rl = readline.createInterface({
