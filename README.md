@@ -1,14 +1,14 @@
 # Night Watch - Telegram Message Monitor Bot
 
 <div align="center">
-  <img src="logo.png" alt="Night Watch Logo" width="200"/>
-  <h3>🛡️ Night Watch - Telegram Message Monitoring System</h3>
-  <p><em>"The night is dark and full of terrors, but we are the watchers on the walls"</em></p>
+  <img src="logo.png" alt="Night Watch Logo" width="500"/>
+  <h3>🦇 Night Watch - Telegram Message Monitoring System</h3>
+  <p><em>"I am vengeance, I am the night, I am Batman"</em></p>
 </div>
 
 ## 📋 Overview
 
-**Night Watch** is a powerful Telegram bot inspired by the Night's Watch from Game of Thrones. It acts as a vigilant guardian that monitors specific Telegram groups and channels for keywords, automatically forwarding relevant messages to designated users. This tool is perfect for staying informed about important discussions, mentions, or events across multiple Telegram communities without having to actively monitor each one.
+**Night Watch** is a powerful Telegram bot inspired by Batman's vigilant guardian role. It acts as a silent protector that monitors specific Telegram groups and channels for keywords, automatically forwarding relevant messages to designated users. This tool is perfect for staying informed about important discussions, mentions, or events across multiple Telegram communities without having to actively monitor each one.
 
 ## 🏗️ Tech Stack
 
@@ -169,6 +169,6 @@ This project is licensed under the ISC License.
 ---
 
 <div align="center">
-  <p><strong>Night Watch</strong> - Keeping you informed, one message at a time 🛡️</p>
-  <p><em>Inspired by the Night's Watch from Game of Thrones</em></p>
+  <p><strong>Night Watch</strong> - Keeping you informed, one message at a time 🦇</p>
+  <p><em>Inspired by Batman's vigilant guardian role</em></p>
 </div>
