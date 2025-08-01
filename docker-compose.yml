@@ -1,0 +1,11 @@
+version: '3.8'
+services:
+  watchman:
+    build: .
+    env_file:
+      - .env
+    restart: unless-stopped
+    # Uncomment if you want to mount code for live development
+    # volumes:
+    #   - ./src:/app/src
+    #   - ./dist:/app/dist 
