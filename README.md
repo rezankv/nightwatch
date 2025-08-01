@@ -10,6 +10,15 @@
 
 **Night Watch** is a powerful Telegram bot inspired by Batman's vigilant guardian role. It acts as a silent protector that monitors specific Telegram groups and channels for keywords, automatically forwarding relevant messages to designated users. This tool is perfect for staying informed about important discussions, mentions, or events across multiple Telegram communities without having to actively monitor each one.
 
+## ⚠️ Important Notes
+
+- **Bot Membership**: The bot must be a member of the groups or channels it's monitoring to be able to read and forward messages. Make sure to add the bot to all target groups/channels before starting the monitoring.
+- **Privacy**: This bot forwards messages, so ensure you have permission to monitor the target channels
+- **Rate Limits**: Be mindful of Telegram's API rate limits
+- **Session Security**: Keep your session string secure and private
+- **Legal Compliance**: Ensure compliance with local laws and Telegram's Terms of Service
+
+
 ## 🏗️ Tech Stack
 
 - **Language**: TypeScript
@@ -154,13 +163,6 @@ You can monitor targets using either:
 ## 📝 TODO
 
 - [ ] Improve code structure and organization
-
-## ⚠️ Important Notes
-
-- **Privacy**: This bot forwards messages, so ensure you have permission to monitor the target channels
-- **Rate Limits**: Be mindful of Telegram's API rate limits
-- **Session Security**: Keep your session string secure and private
-- **Legal Compliance**: Ensure compliance with local laws and Telegram's Terms of Service
 
 ## 📄 License
 
