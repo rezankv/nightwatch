@@ -125,7 +125,7 @@ pnpm start
 |----------|-------------|---------|
 | `API_ID` | Telegram API ID | `12345678` |
 | `API_HASH` | Telegram API Hash | `abcdef1234567890abcdef1234567890` |
-| `STRING_SESSION` | Telegram session string | Generated automatically (you can save it to prevent login every time) |
+| `STRING_SESSION` | Telegram session string | Generated automatically when app is running  (you can log and save it to prevent login every time) |
 | `FORWARD_TO` | Username or ID to forward messages to | `username` |
 | `TARGET_IDS` | Channel/Group IDs to monitor | `123456789,987654321` |
 | `TARGET_USERNAMES` | Channel/Group usernames to monitor | `channel1,group1` |
