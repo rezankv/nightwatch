@@ -74,11 +74,11 @@ STRING_SESSION=your_string_session
 FORWARD_TO=username_or_id_to_forward_messages_to
 
 # Monitoring Targets (comma-separated)
-TARGET_IDS=123456789,987654321
-TARGET_USERNAMES=channel1,channel2,group1
+TARGET_IDS="123456789,987654321"
+TARGET_USERNAMES="channel1,channel2,group1"
 
 # Keywords to Monitor (comma-separated)
-KEYWORDS=keyword1,keyword2,important,urgent
+KEYWORDS="keyword1,keyword2,important,urgent"
 ```   
 
 ### 4. Get Telegram API Credentials
